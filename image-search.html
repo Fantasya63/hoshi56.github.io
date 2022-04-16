@@ -1,19 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Image Search</title>
+        <title>Hoshi Image-Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <div id="TopBar">
-            <a href="index.html">Google Search</a>
+            <a href="index.html">Normal Search</a>
         </div>
         
-        <div id="FormContainter">
-            <form action="https://google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Google Search">
-            </form>
-        </div>
+        <form action="https://google.com/search" autocomplete="off">
+            <div id="FormContainer">
+                <h1>
+                    Hoshi <p id="images-splash">images</p>
+                </h1>
+                <input type="text" placeholder="Search Images" name="q">
+            </div>
+        </form>
     </body>
 </html>
