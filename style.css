@@ -36,6 +36,9 @@ form {
     display: flex;
     align-items: center;
     flex-direction: column;
+    width: 100%;
+    max-width: 548px;
+    margin: 0px 15px;
 }
 input[type="text"]
 {
@@ -48,7 +51,12 @@ input[type="text"]
     padding-left: 22px;
     margin-bottom: 24px;
 }
-input[type="submit"], input[type=button]{
+input[type="submit"]{
+    /* Remove First */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    
     margin: 0px 6px 0px 6px;
     border-radius: 5px;
     height: 44px;
@@ -81,4 +89,11 @@ h6{
 }
 .small{
 font-size: 12px;
+}
+
+span{
+    display: inline;
+    color: rgb(118, 118, 255);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
