@@ -3,8 +3,9 @@
     padding: 0px;
     margin: 0px;
     color: #bdc1c6;
-   
+    font-family: arial,sans-serif;
 }
+
 
 #TopBar{
     display: flex;
@@ -20,9 +21,11 @@ a{
     color: white;
     font-family: arial,sans-serif;
     font-size: 13px;
+    min-width: fit-content;
 }
 a:hover{
     text-decoration: underline;
+    color: rgb(122, 122, 255);
 }
 
 form {
@@ -30,7 +33,6 @@ form {
     display: flex;
     margin: 32px 16px 16px 16px;
     justify-content: center;
-    flex: 1;
 }
 #FormContainer {
     display: flex;
@@ -39,6 +41,11 @@ form {
     width: 100%;
     max-width: 548px;
     margin: 0px 15px;
+}
+#advance-form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 input[type="text"]
 {
@@ -96,4 +103,34 @@ span{
     color: rgb(118, 118, 255);
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+.hbox{
+    display: flex;
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center-items{
+    justify-content: center;
+}
+
+.expand{
+    width: 100%;
+}
+
+.seperator{
+    height: 1px;
+    width: 100%;
+    background-color: rgb(47, 49, 53);
+}
+.top-bar-header{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    min-width: fit-content;
+    margin: 12px;
 }
