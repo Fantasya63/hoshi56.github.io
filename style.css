@@ -62,6 +62,7 @@ input[type="text"]
     border-width: 1px;
     padding-left: 22px;
     margin-bottom: 24px;
+    color: #380036;
 }
 input[type="submit"]{
     /* Remove First */
